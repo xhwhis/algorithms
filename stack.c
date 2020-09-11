@@ -35,7 +35,7 @@ int push(Stack *s, int val) {
 int pop(Stack *s) {
     if (!s) return 0;
     if (empty(s)) return 0;
-    s->top = -1;
+    s->top--;
     return 1;
 }
 
